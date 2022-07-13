@@ -1,0 +1,60 @@
+html, body {
+  margin: 0; }
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none; }
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */ }
+
+h1 {
+  color: antiquewhite;
+  cursor: pointer; }
+
+p {
+  background: #000;
+  color: #fff;
+  padding: 4px; }
+
+.input-box, .select-car {
+  outline: none; }
+
+.input-box {
+  border: none;
+  font-size: medium;
+  width: 20rem; }
+
+.select-car {
+  width: 250px;
+  padding: 4px;
+  margin: 0 2rem 0 0; }
+
+option {
+  background: rgba(0, 0, 0, 0.877); }
+
+.navbar-nav li a {
+  border-right: 1px solid gray;
+  padding: 0; }
+
+.main-section {
+  background: #000 url("../images/car1.jpg") no-repeat center;
+  background-size: cover;
+  height: 100vh; }
+
+.footer {
+  border-top: 2px solid #3b3b3b; }
+  .footer .container-fluid ul {
+    padding: 8px;
+    margin: 0 4px; }
+    .footer .container-fluid ul li {
+      list-style-type: none;
+      margin-bottom: 6px; }
+
+@media (max-width: 520px) {
+  .input-box {
+    width: 16rem; } }
