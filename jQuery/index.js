@@ -14,4 +14,14 @@ $(()=>{
       $('#footer-plus-icon').show();
       $('#ul-toggle').hide();
     })
+    if (window.matchMedia('(min-width: 768px)').matches) {
+      $('#footer-minus-icon').hide();
+      $('#footer-plus-icon').hide();
+      $('#ul-toggle').show();
+  }
+  else {
+    $('#footer-minus-icon').hide();
+      $('#footer-plus-icon').show();
+      $('#ul-toggle').hide();
+  }
   });

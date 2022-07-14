@@ -80,6 +80,12 @@ option {
         }
     } 
 }
+#viewDiv {
+    padding: 0;
+    margin: 0;
+    height: 180px;
+    width: 250px;
+  }
 #footer-plus-icon, #footer-minus-icon {
     font-size: 24px;
     display: none;
@@ -98,4 +104,10 @@ option {
     #ul-toggle {
         display: none;
     }
+}
+@media (min-width:768px) and (max-width:1048px) {
+    #viewDiv {
+        width: 200px;
+    }
+    
 }
