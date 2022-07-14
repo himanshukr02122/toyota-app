@@ -80,9 +80,22 @@ option {
         }
     } 
 }
+#footer-plus-icon, #footer-minus-icon {
+    font-size: 24px;
+    display: none;
+    cursor: pointer;
+}
 
 @media (max-width:520px) {
     .input-box {
         width: 16rem;
     }   
+}
+@media (max-width:768px) {
+    #footer-plus-icon {
+        display: block;
+    }
+    #ul-toggle {
+        display: none;
+    }
 }
